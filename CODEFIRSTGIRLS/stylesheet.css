@@ -1,0 +1,14 @@
+.responsive {padding:0 6px;
+float:left;
+width:24.9999%}
+
+div.gallery {border: 1px solid whitesmoke;}
+div.gallery:hover {border:1px solid maroon; }
+div.gallery img {width:100%;
+height: auto;}
+
+div.desc { padding:15px;
+text-align: center;}
+ *{box-sizing: border-box;}
+
+@media only screen (max-width: 320px) {h1 {color: blue;}}

@@ -1,0 +1,71 @@
+ /*Cleaned up the css file, indents and spacing are your friend*/
+
+h1 {
+	color: white;
+	font-family: fantasy;
+	text-align: center;
+}
+/*
+ul {
+	list-style: none;
+}*/
+
+nav ul li {display:inline;
+margin:0px 30px; /*margin: [vertical value] [horizontal value]*/
+padding: 0px 5px;
+}
+
+
+ul{
+ text-align: center;	
+	border-style: solid;
+	border-color: black;	
+}
+
+ul li {
+	display: inline;
+	margin: 0px 10px; /*margin: [vertical value] [ horizontal]*/
+	padding: 0px 5px;
+	
+}
+
+header {
+	height: 200px;
+	/*width:600px; */
+	background-color: black;
+	display: flex; 
+	align-items: center;
+	justify-content: center;
+	
+}
+
+p {
+	/*width:600px;*/
+	width: 35%;
+	margin-left: auto;
+  margin-right: auto; /*Makes the paragraph in the center*/
+	text-align:justify; 
+	font: fantasy;
+  
+}
+
+.SpecialText{
+	color: crimson;
+}
+
+.row{
+	display:flex;
+	flex-wrap:wrap;
+  background-color: black;
+  justify-content: center;
+}
+
+
+
+img{
+	margin: 10px 50px;
+	border-style: solid;
+	border-color: white;	
+}
+
+
